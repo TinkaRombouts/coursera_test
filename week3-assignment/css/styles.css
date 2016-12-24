@@ -1,0 +1,59 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+ul#nav li a {
+background: #FF8C00;
+color:#eee;
+border: 1px solid #815444;
+}
+
+ul#nav li a:hover {
+background: #CD6600;
+}
+
+#main-content {
+	margin: 10px;
+}
+
+section {
+	background-color: blue;
+	color: white;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsible-nav {
+		background: white;
+	}
+
+	#header-nav {
+		border: 0;
+		padding: 0;
+	}
+
+	.navbar-nav {
+		margin-top: 0;
+	}
+
+	.row {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+}
